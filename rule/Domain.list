@@ -4,4 +4,4 @@ DOMAIN-SUFFIX,coingecko.com, // coin tick代理，标题栏获取比特币价格
 DOMAIN-SUFFIX,sms-activate.org, // sms
 DOMAIN-SUFFIX,gravatar.com, // gravatar
 AND,((IN-PORT,6153), (PROCESS-NAME,*Google Chrome*)), // 手动代理
-OR,((DOMAIN-SUFFIX,myshopify.com),(DOMAIN-SUFFIX,shopify.dev),(DOMAIN-SUFFIX,myshopify.com)) // SHOPIFY
+OR,((DOMAIN-SUFFIX,myshopify.com),(DOMAIN-SUFFIX,shopify.dev),(DOMAIN-SUFFIX,shopify.com)) // SHOPIFY
