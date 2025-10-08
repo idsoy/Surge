@@ -1,7 +1,218 @@
-DOMAIN-SUFFIX,bet365.com, // bet365
-DOMAIN-SUFFIX,vercel.app, // Sub-store
-DOMAIN-SUFFIX,coingecko.com, // coin tick代理，标题栏获取比特币价格信息  
-DOMAIN-SUFFIX,sms-activate.org, // sms
-DOMAIN-SUFFIX,gravatar.com, // gravatar
-AND,((IN-PORT,6153), (PROCESS-NAME,*Google Chrome*)), // 手动代理
+DOMAIN-SUFFIX,bet365.com // bet365
+DOMAIN-SUFFIX,vercel.app // Sub-store
+DOMAIN-SUFFIX,coingecko.com // coin tick代理，标题栏获取比特币价格信息  
+DOMAIN-SUFFIX,sms-activate.org // sms
+DOMAIN-SUFFIX,gravatar.com // gravatar
+DOMAIN-SUFFIX,civitai.com //civitai
+AND,((IN-PORT,6153), (PROCESS-NAME,*Google Chrome*)) // 手动代理
 OR,((DOMAIN-SUFFIX,myshopify.com),(DOMAIN-SUFFIX,shopify.dev),(DOMAIN-SUFFIX,shopify.com)) // SHOPIFY
+
+# NAME: OpenAI
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:49:21
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 23
+# IP-ASN: 1
+# IP-CIDR: 2
+# TOTAL: 29
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,cdn.cloudflare.net
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-KEYWORD,openai
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,20473,no-resolve
+
+# NAME: GitHub
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:43:28
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 29
+# TOTAL: 30
+DOMAIN-SUFFIX,atom.io
+DOMAIN-SUFFIX,dependabot.com
+DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,git.io
+DOMAIN-SUFFIX,github-atom-io-herokuapp-com.freetls.fastly.net
+DOMAIN-SUFFIX,github-avatars.oss-cn-hongkong.aliyuncs.com
+DOMAIN-SUFFIX,github-cloud.s3.amazonaws.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.community
+DOMAIN-SUFFIX,github.dev
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubhackathon.com
+DOMAIN-SUFFIX,githubnext.com
+DOMAIN-SUFFIX,githubpreview.dev
+DOMAIN-SUFFIX,githubstatus.com
+DOMAIN-SUFFIX,githubuniverse.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,myoctocat.com
+DOMAIN-SUFFIX,npm.community
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+DOMAIN-SUFFIX,opensource.guide
+DOMAIN-SUFFIX,rawgit.com
+DOMAIN-SUFFIX,rawgithub.com
+DOMAIN-SUFFIX,repo.new
+DOMAIN-SUFFIX,thegithubshop.com
+DOMAIN-KEYWORD,github
+
+# NAME: Telegram
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:46:21
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 22
+# IP-ASN: 5
+# IP-CIDR: 4
+# IP-CIDR6: 4
+# OR: 1
+# PROCESS-NAME: 3
+# TOTAL: 42
+DOMAIN,api.imem.app
+DOMAIN,api.swiftgram.app
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,mbrx.app
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,usercontent.dev
+DOMAIN-KEYWORD,nicegram
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,5.28.192.0/18,no-resolve
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/47,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2a0a:f280::/29,no-resolve
+IP-ASN,211157,no-resolve
+IP-ASN,44907,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,62041,no-resolve
+PROCESS-NAME,nekox.messenger
+PROCESS-NAME,org.telegram.messenger
+PROCESS-NAME,telegram-desktop
+OR,((IP-ASN,44907,no-resolve),(IP-ASN,59930,no-resolve),(IP-ASN,62014,no-resolve),(IP-ASN,62041,no-resolve),(IP-ASN,211157,no-resolve))
+
+# NAME: Docker
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:47:26
+# DOMAIN: 3
+# DOMAIN-SUFFIX: 4
+# TOTAL: 7
+DOMAIN,d1q6f0aelx0por.cloudfront.net
+DOMAIN,d2wy8f7a9ursnm.cloudfront.net
+DOMAIN,d36jcksde1wxzq.cloudfront.net
+DOMAIN-SUFFIX,compose-spec.io
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerhub.com
+
+# NAME: Twitter
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:46:23
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 25
+# IP-CIDR: 7
+# TOTAL: 33
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,tellapart.com
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+DOMAIN-KEYWORD,twitter
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,199.16.156.0/22,no-resolve
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,199.96.56.0/21,no-resolve
+IP-CIDR,202.160.128.0/22,no-resolve
+IP-CIDR,209.237.192.0/19,no-resolve
+IP-CIDR,69.195.160.0/19,no-resolve
+
+# NAME: Binance
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:48:34
+# DOMAIN-SUFFIX: 12
+# TOTAL: 12
+DOMAIN-SUFFIX,appsflayer.com
+DOMAIN-SUFFIX,binance.cloud
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binancecnt.com
+DOMAIN-SUFFIX,binancefuture.com
+DOMAIN-SUFFIX,bnappzh.co
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bnbzh.ac
+DOMAIN-SUFFIX,bntrace.com
+DOMAIN-SUFFIX,saasexch.cc
+DOMAIN-SUFFIX,saasexch.com
