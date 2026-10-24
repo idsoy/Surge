@@ -189,6 +189,7 @@ DOMAIN-SUFFIX,saasexch.com
 DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
 
 # NAME: Google
 # AUTHOR: blackmatrix7
