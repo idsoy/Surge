@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,sms-activate.org // sms
 DOMAIN-SUFFIX,gravatar.com // gravatar
 DOMAIN-SUFFIX,civitai.com //civitai
 DOMAIN-SUFFIX,muse.ai //muse
+DOMAIN-SUFFIX,meta.ai //muse
 DOMAIN-SUFFIX,metaaivm.com //muse
 AND,((IN-PORT,6153), (PROCESS-NAME,*Google Chrome*)) // 手动代理
 OR,((DOMAIN-SUFFIX,myshopify.com),(DOMAIN-SUFFIX,shopify.dev),(DOMAIN-SUFFIX,shopify.com)) // SHOPIFY
